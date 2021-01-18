@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\AngularZoomClient\**" />
+    <Content Remove="wwwroot\AngularZoomClient\**" />
+    <EmbeddedResource Remove="wwwroot\AngularZoomClient\**" />
+    <None Remove="wwwroot\AngularZoomClient\**" />
+  </ItemGroup>
+
+</Project>
